@@ -1,3 +1,28 @@
+html {
+  min-height: 100%;
+}
+
 body {
-    text-align: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.wrapper {
+  margin-top: 20px;
+  margin-bottom: -20px;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.container {
+  font-size: 1.2em;
+}
+
+.success {
+  color: #5fc148;
+}
+
+.misses {
+  color: #cb4831;
 }
